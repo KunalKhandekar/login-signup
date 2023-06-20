@@ -17,57 +17,289 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="form signup">
-            <form action="{{ url_for('signup') }}" method="post">
-                <h2>Sign Up</h2>
-                <div class="inputBox">
-                    <input type="text" name="username" required="required">
-                    <i class="fa-regular fa-user"></i>
-                    <span>username</span>
-                </div>
-                <div class="inputBox">
-                    <input type="email" name="email" required="required">
-                    <i class="fa-regular fa-envelope"></i>
-                    <span>email address</span>
-                </div>
-                <div class="inputBox">
-                    <input type="password" name="password" required="required">
-                    <i class="fa-solid fa-lock"></i>
-                    <span>create password</span>
-                </div>
-                <div class="inputBox">
-                    <input type="password" name="password" required="required">
-                    <i class="fa-solid fa-lock"></i>
-                    <span>confirm password</span>
-                </div>
-                <div class="inputBox">
-                    <input type="submit" value="Create Account">
-                </div>
-                <p>Already a member ? <a href="#" class="login">Log in</a></p>
-            </form>
+    <section>
+        <div class="container">
+            <div class="form signup">
+                <form action="{{ url_for('signup') }}" method="post">
+                    <h2>SIGN UP</h2>
+                    <div class="inputBox">
+                        <input type="text" name="username" required="required">
+                        <i class="fa-regular fa-user"></i>
+                        <span>username</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>email address</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" required="required">
+                        <i class="fa-solid fa-lock"></i>
+                        <span>create password</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" required="required">
+                        <i class="fa-solid fa-lock"></i>
+                        <span>confirm password</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Create Account">
+                    </div>
+                    <p>Already a member ? <a href="#" class="login">Log in</a></p>
+                </form>
+            </div>
+            <div class="form signin">
+                <form action="" method="post">
+                    <h2>SIGN IN</h2>
+                    <div class="inputBox">
+                        <input type="text" name="username" required="required">
+                        <i class="fa-regular fa-user"></i>
+                        <span>username</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" required="required">
+                        <i class="fa-solid fa-lock"></i>
+                        <span>password</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="error">{{ error }}</div>
+                    <p>Not Registered ? <a href="#" class="create">Create an account</a></p>
+                </form>
+            </div>
         </div>
-        <div class="form signin">
-            <form action="" method="post">
-                <h2>Sign In</h2>
-                <div class="inputBox">
-                    <input type="text" name="username" required="required">
-                    <i class="fa-regular fa-user"></i>
-                    <span>username</span>
-                </div>
-                <div class="inputBox">
-                    <input type="password" name="password" required="required">
-                    <i class="fa-solid fa-lock"></i>
-                    <span>password</span>
-                </div>
-                <div class="inputBox">
-                    <input type="submit" value="Login">
-                </div>
-                <div class="error">{{ error }}</div>
-                <p>Not Registered ? <a href="#" class="create">Create an account</a></p>
-            </form>
-        </div>
-    </div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </section>
 
     <script>
         let login = document.querySelector(".login");
