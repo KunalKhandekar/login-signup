@@ -25,7 +25,7 @@ body {
     inset 5px 5px 15px rgba(0, 0, 0, 0.35);
 }
 
-.container .form {
+.container .form form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,6 +126,10 @@ body {
 
 .container .form .inputBox input[type="submit"]:active {
   transform: scale(0.95);
+}
+
+.error {
+  color: #de4343;
 }
 
 .container .form p {
